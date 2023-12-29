@@ -5,10 +5,10 @@ class userLogin extends Database
 {
     public function __construct()
     {
-        parent::__construct();//konsep oop
+        parent::__construct();//konsep ooppp
     }
 
-    public function cekLogin($nik)
+    public function cekLogin($nik) 
     {
         $konek = $this->getKonek();
         $query = mysqli_query($konek, "SELECT * FROM tb_user WHERE nik='$nik'");

@@ -97,7 +97,7 @@ include 'konek.php';
       <div class="form-box">
         <h2 class="text-center mb-4">Masuk</h2>
 
-        <form action="cekLogin.php" method="post">
+        <form action="cekLogin.php" method="post">"selamat ujian"
           <div class="card-body mb-4">
             <label for="nik" class="form-label">NIK</label>
             <div class="input-group mb-4">
