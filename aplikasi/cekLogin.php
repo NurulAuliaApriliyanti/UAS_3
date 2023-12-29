@@ -5,7 +5,7 @@ class userLogin extends Database
 {
     public function __construct()
     {
-        parent::__construct();//konsep oopppp
+        parent::__construct();//konsep oopp
     }
 
     public function cekLogin($nik)
